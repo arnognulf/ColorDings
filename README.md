@@ -4,10 +4,11 @@ ColorDings
 It's 2023 when I write this and people still send me mails sprinkled with 'J':s.
 
 
-ColorDings is a free implementation of WingDings from some Seattle company.
+ColorDings solves this insufferable pain by replacing WingDings and replacing the glyphs with color emojis.
 
-Building
-========
+Building (optional)
+===================
+
 Clone https://github.com/googlefonts/noto-emoji
 
 
@@ -20,9 +21,6 @@ run generate.sh
 some assembly may be required.
 
 
-verify at: http://www.alanwood.net/demos/wingdings.html
-
-
 Installation
 ============
 Copy ColorDings.ttf to ~/.local/share/fonts/
@@ -33,6 +31,8 @@ run 'fc-cache -r' and restart your mail client.
 
 
 You will now be able to view smileys as colorful emojis (YEY!) instead of 'J', 'K', or 'R' (boo!)
+
+Verify at: http://www.alanwood.net/demos/wingdings.html
 
 
 Copyright
